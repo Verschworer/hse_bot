@@ -29,6 +29,9 @@ sudo nano /lib/systemd/system/bot.service
 
 
 sudo systemctl daemon-reload
+
 sudo systemctl enable bot
+
 sudo systemctl start bot
+
 sudo systemctl status bot

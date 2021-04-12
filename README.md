@@ -10,8 +10,25 @@ pip3 install pyTelegramBotAPI && sudo pip3 install pyTelegramBotAPI && pip3 inst
 
 
 !wget -q "https://github.com/joolsa/fake_real_news_dataset/raw/master/fake_or_real_news.csv.zip"
+
 !unzip fake_or_real_news.csv.zip
 
 
 
-sudo nano /lib/systemd/system/temperature.service
+sudo nano /lib/systemd/system/bot.service
+
+
+
+
+
+
+
+
+
+
+
+
+sudo systemctl daemon-reload
+sudo systemctl enable bot
+sudo systemctl start bot
+sudo systemctl status bot

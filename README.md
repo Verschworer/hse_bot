@@ -11,3 +11,7 @@ pip3 install pyTelegramBotAPI && sudo pip3 install pyTelegramBotAPI && pip3 inst
 
 !wget -q "https://github.com/joolsa/fake_real_news_dataset/raw/master/fake_or_real_news.csv.zip"
 !unzip fake_or_real_news.csv.zip
+
+
+
+sudo nano /lib/systemd/system/temperature.service
